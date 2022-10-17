@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Koulen&family=Macondo&family=Roboto+Flex:opsz,wght@8..144,200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px; 
+    /* background-image:url(https://images.unsplash.com/photo-1547025603-ef800f02690e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1600&q=80) ; */
+    /* height: 500px; */
+    
+}
+#bg{
+    position:fixed;
+    /* opacity: 0.8; */
+    z-index: -1;
+    max-width: 3000px;
+}
+.smallbox{
+    position: absolute;
+    top: 140px;
+    left: 80px;
+    /* border: 2px solid black; */
+    width: 650px;
+    height: 200px;
+    text-align: center;
+    position: fixed;
+}
+.smallbox h2{
+    font-size: 3.7rem;
+    color: rgb(251, 65, 65);
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+.smallbox h4{
+    font-size: 1.5rem;
+    margin: 23px;
+    color:rgb(200, 195, 195);
+}
+.box{
+    min-height: 1750px;
+    width: 40%;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 163px;
+    left: 800px;
+    /* background-color: red; */
+    z-index: -1;
+    /* background-color: black; */
+    /* opacity: 0.5; */
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    border-radius: 18px;
+
+    
+}
+.heading h3{
+    height: 50px;
+    width: 80%;
+    border: 2px solid red ;
+    background-color: red;
+    z-index: 2;
+    color: white;
+    text-align: center;
+    font-size: 2.2rem;
+    position: relative;
+    z-index: 2;
+    opacity: 5;
+    margin: auto;
+    margin-top: 43px;
+}
+.info h3{
+    height: 40px;
+    width: 80%;
+    border: 2px solid red ;
+    background-color: red;
+    z-index: 2;
+    color: white;
+    text-align: left;
+    font-size: 1.8rem;
+    position: relative;
+    /* z-index: 2; */
+    opacity: 5;
+    /* margin: auto; */
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.Input{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position: relative;
+    margin: auto;
+    z-index: 2;
+}
+.Input p{
+    color:white;
+    font-size: 1.2rem;
+    z-index: 2;
+    display: inline-block;
+}
+.Input p:hover{
+   color:red;
+    cursor: pointer;
+    
+}
+.Input input{
+    margin: 12px 0px;
+    height: 11px;
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    width: 373px;
+    outline: none;
+    border: none;
+    padding: 12px;
+    z-index: 2;
+
+}
+.Input textarea{
+    outline: none;
+    padding: 12px;
+}
+#signature{
+    height: 22px;
+    padding: 11px;
+    z-index: 2;
+}
+.Input button{
+    height: 40px;
+    width: 124px;
+    background-color: red;
+    color: white;
+    font-size: 1.6rem;
+    margin: 45px 0px;
+    border-radius: 10px;
+    border: 2px solid red;
+    cursor: pointer;
+    z-index: 2;
+}
+.Input .part{
+    width: 40px;
+}
+
+.pay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Input #favorite{
+    width: 34px;
+}
+.checkkk{
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+    margin: 23px 0px; 
+}
+/* checked='#{item.favorite ? true : false}' */
+
+.registerd{
+    min-height: 350px;
+    width: 40%;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 163px;
+    left: 800px;
+    /* background-color: red; */
+    z-index: -1;
+    /* background-color: black; */
+    /* opacity: 0.5; */
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    border-radius: 18px;
+
+}
+.registerd h2{
+    border: 2px solid red;
+    background: red;
+    color: white;
+    margin: 34px 0px;
+    height: 50px;
+    text-align: center;
+    font-size: 2.2rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 45px;
+}
+.registerd p{
+    
+    color: white;
+    margin-top: 54px ;
+    /* height: 50px; */
+    text-align: center;
+    font-size: 3.2rem;
+}
+.reg{
+    position: fixed;
+    left: 310px;
+    top: 480px;
+    
+   
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    font-size: 2.2rem;
+    /* height: 32px;
+    height: 45px; */
+    /* width: 161px; */
+    border-radius: 11px;
+    
+}
+.reg a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 0px 18px
+}
+.reg :hover{
+    
+    border-radius: 11px;
+    background-color: white;
+}
+.reg a:hover{
+    border-radius: 11px;
+    color: red;
+  
+}

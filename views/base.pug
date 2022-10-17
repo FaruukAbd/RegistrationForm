@@ -1,0 +1,21 @@
+doctype html 
+html 
+  head 
+    title Our website 
+    block scripts 
+    block style
+      style 
+         include  ../public/css/style.css
+  body
+    img(id="bg" src="https://images.unsplash.com/photo-1547025603-ef800f02690e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1600&q=80", alt="")
+    .smallbox 
+        h2 Car Racing Event 
+        h4 location: Nurburging Nordschleife 
+        h4 Date:21/10/2022 to 24/10/2022 
+        h4 Time:8.00AM to 5.00PM
+        h4 please fill up the register form to participate in the event
+    .reg 
+        a(href="/") Register 
+    block content 
+    
+        

@@ -1,0 +1,60 @@
+extends base.pug
+
+block scripts 
+block style 
+    style 
+      include  ../public/css/style.css
+block content 
+    .box
+      .heading 
+          h3 Registration Form
+      .info
+          
+          form(action="/", method="post", class="Input")
+              p Enter the below Information. All are necessary
+              h3 Driver Information 
+              p Driver's Name: 
+              input(type="text" name="Name" )
+              p Date of Birth:
+              input(type="date" name="DOB" )
+              p Phone Number:
+              input(type="number" name="PhNumber" )
+              p Email:
+              input(type="email" name="Email" )
+              p Address:
+              input(type="text" name="Address" )
+              p License No:
+              input(type="text" name="LicenseNo" )
+              p adhar No:
+              input(type="number" name="AdharNo" )
+              h3 Car Details
+              p Brand Name:
+              input(type="text" name="Brand" )
+              p Model:
+              input(type="number" name="Model" )
+              p Car Color:
+              input(type="text" name="Color" )
+              p Car No:
+              input(type="text" name="CarNo" )
+              p Modificatios: 
+              textarea(name="Modifications", cols="20", rows="10")
+              h3 Registration Payment
+              p Registration fees:
+              .pay 
+                input(type="radio", name="Payment", value="200", checked=participation=="1 Day" class="part")
+                | 1 Day Participation $200.00
+              .pay 
+                input(type="radio", name="Payment", value="350", checked=participation=="2 Days" class="part")
+                | 2 Days Participation $350.00
+              .pay 
+                input(type="radio", name="Payment", value="500", checked=participation=="3 Days" class="part")
+                | 3 Days Participation $500.00
+               
+              h3 Release and Agreement 
+               
+              p Date:
+              input(type="date" name="DatedSigned" )
+              .checkkk
+                input(id="favorite" type="checkbox" name="terms" value='true' )
+                p i agree terms and conditions
+              button Submit
